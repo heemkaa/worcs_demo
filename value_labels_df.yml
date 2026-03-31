@@ -1,0 +1,14 @@
+species:
+  class: factor
+  '1': Adelie
+  '2': Chinstrap
+  '3': Gentoo
+island:
+  class: factor
+  '1': Biscoe
+  '2': Dream
+  '3': Torgersen
+sex:
+  class: factor
+  '1': female
+  '2': male
