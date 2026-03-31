@@ -7,3 +7,18 @@ library(worcs)
 
 df <- readxl::read_xlsx("penguins.xlsx", 1)
 
+# changing variable types
+df$species <- factor(df$species)
+df$island <- factor(df$island)
+df$sex <- factor(df$sex)
+
+#deleting column
+#df[["column_name"]] <- NULL
+
+descriptives(df)
+
+open_data(df)
+
+
+
+
